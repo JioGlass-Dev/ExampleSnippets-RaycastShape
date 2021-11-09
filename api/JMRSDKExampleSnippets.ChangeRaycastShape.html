@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ChangeRaycastShape
+   | JMR Samples </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ChangeRaycastShape
+   | JMR Samples ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape">
+  
+  
+  <h1 id="JMRSDKExampleSnippets_ChangeRaycastShape" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape" class="text-break">Class ChangeRaycastShape
+  </h1>
+  <div class="markdown level0 summary"><p>Control and change the raycast shape - length and width</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">ChangeRaycastShape</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ITouchHandler</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="JMRSDKExampleSnippets.html">JMRSDKExampleSnippets</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="JMRSDKExampleSnippets_ChangeRaycastShape_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ChangeRaycastShape : MonoBehaviour, ITouchHandler</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_lengthSlider" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.lengthSlider">lengthSlider</h4>
+  <div class="markdown level1 summary"><p>Slider to manipulate current length of pointer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Slider lengthSlider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Slider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_pointerLengthText" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.pointerLengthText">pointerLengthText</h4>
+  <div class="markdown level1 summary"><p>Text showing current length of pointer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI pointerLengthText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_pointerWidthText" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.pointerWidthText">pointerWidthText</h4>
+  <div class="markdown level1 summary"><p>Text showing current width of pointer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI pointerWidthText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_widthSlider" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.widthSlider">widthSlider</h4>
+  <div class="markdown level1 summary"><p>Slider to manipulate current width of pointer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Slider widthSlider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Slider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="JMRSDKExampleSnippets_ChangeRaycastShape_ChangeLength_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.ChangeLength*"></a>
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_ChangeLength_System_Single_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.ChangeLength(System.Single)">ChangeLength(Single)</h4>
+  <div class="markdown level1 summary"><p>Change length of raycast.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeLength(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value of raycast length to change to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="JMRSDKExampleSnippets_ChangeRaycastShape_ChangeWidth_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.ChangeWidth*"></a>
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_ChangeWidth_System_Single_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.ChangeWidth(System.Single)">ChangeWidth(Single)</h4>
+  <div class="markdown level1 summary"><p>Change width of raycast.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeWidth(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value of raycast width to change to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="JMRSDKExampleSnippets_ChangeRaycastShape_NullCheck_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.NullCheck*"></a>
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_NullCheck" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.NullCheck">NullCheck()</h4>
+  <div class="markdown level1 summary"><p>Checks if PointerLaserUnity or JMRPointerManager is null or not.
+Try to find and cache the objects if null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NullCheck()</code></pre>
+  </div>
+  
+  
+  <a id="JMRSDKExampleSnippets_ChangeRaycastShape_OnTouchStart_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.OnTouchStart*"></a>
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_OnTouchStart_TouchEventData_Vector2_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.OnTouchStart(TouchEventData,Vector2)">OnTouchStart(TouchEventData, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Function called when touch started.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnTouchStart(TouchEventData eventData, Vector2 TouchData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TouchEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p>Touch related data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">TouchData</span></td>
+        <td><p>Position of touch</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="JMRSDKExampleSnippets_ChangeRaycastShape_OnTouchStart_TouchEventData_Vector2__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Not implemented as not required.</p>
+</div>
+  
+  
+  <a id="JMRSDKExampleSnippets_ChangeRaycastShape_OnTouchStop_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.OnTouchStop*"></a>
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_OnTouchStop_TouchEventData_Vector2_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.OnTouchStop(TouchEventData,Vector2)">OnTouchStop(TouchEventData, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Function called when touch stops</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnTouchStop(TouchEventData eventData, Vector2 TouchData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TouchEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p>Touch related data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">TouchData</span></td>
+        <td><p>Position of touch</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="JMRSDKExampleSnippets_ChangeRaycastShape_OnTouchStop_TouchEventData_Vector2__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Not implemented as not required.</p>
+</div>
+  
+  
+  <a id="JMRSDKExampleSnippets_ChangeRaycastShape_OnTouchUpdated_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.OnTouchUpdated*"></a>
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_OnTouchUpdated_TouchEventData_Vector2_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.OnTouchUpdated(TouchEventData,Vector2)">OnTouchUpdated(TouchEventData, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Function called when touch updates.</p>
+<p>Update the shape of raycast based on touch position update.</p>
+<p>x axis represents width, y axis represents length.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnTouchUpdated(TouchEventData eventData, Vector2 TouchData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TouchEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p>Touch related data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">TouchData</span></td>
+        <td><p>Position of touch</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="JMRSDKExampleSnippets_ChangeRaycastShape_Start_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.Start*"></a>
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_Start" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Add a global listener</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+  
+  
+  <a id="JMRSDKExampleSnippets_ChangeRaycastShape_updateSliders_" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.updateSliders*"></a>
+  <h4 id="JMRSDKExampleSnippets_ChangeRaycastShape_updateSliders" data-uid="JMRSDKExampleSnippets.ChangeRaycastShape.updateSliders">updateSliders()</h4>
+  <div class="markdown level1 summary"><p>Update sliders UI to reflect the current values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateSliders()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">ITouchHandler</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            JMR Example Snippets
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
