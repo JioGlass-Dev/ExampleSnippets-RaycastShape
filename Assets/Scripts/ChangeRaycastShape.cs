@@ -134,7 +134,7 @@ namespace JMRSDKExampleSnippets
         /// 
         /// Update the shape of raycast based on touch position update.
         /// 
-        /// x axis represents width, y axis represents length.
+        /// x axis is mapped to change width, y axis is mapped to change length.
         /// </summary>
         /// <param name="eventData">Touch related data</param>
         /// <param name="TouchData">Position of touch</param>
