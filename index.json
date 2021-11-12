@@ -11,8 +11,8 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "ExampleSnippets-RaycastShape | JMR Samples",
-    "keywords": "ExampleSnippets-RaycastShape Example to change length and width of raycast"
+    "title": "Raycast Shape | JMR Samples",
+    "keywords": "Raycast Shape Example to change length and width of raycast Scripts ChangeRaycastShape.cs Control and change the raycast shape - length and width. Changing length of JMR Laser Raycast cs JMRPointerManager _jmrPointerManager = FindObjectOfType<JMRPointerManager>(); _jmrPointerManager.MaxPointerCollisionDistance = value; Changing width of JMR Laser Raycast cs PointerLaserUnity _pointerLaserUnity = FindObjectOfType<PointerLaserUnity>(); _pointerLaserUnity.WidthMultiplier = value; How to use? Download and unzip this project. Open the project using Unity Hub. Download and import the latest version of JMRSDK package. Open and play the ChangeRaycastShape scene from Assets/Scenes folder."
   },
   "manual/JMRSamples.html": {
     "href": "manual/JMRSamples.html",
